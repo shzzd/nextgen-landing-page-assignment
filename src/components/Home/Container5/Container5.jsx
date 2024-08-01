@@ -1,5 +1,6 @@
 import React from "react";
 import classes from "./Container5.module.css";
+import { FaArrowRight } from "react-icons/fa6";
 
 export default function Container5() {
   return (
@@ -18,7 +19,9 @@ export default function Container5() {
         egestas augue. Phasellus vitae vulputate nisi, vitae eleifend enim.
         Aenean rutrum tristique purus,
       </p>
-      <p>Learn More </p>
+      <p>
+        Learn More <FaArrowRight className={classes.iconStyle} />
+      </p>
     </div>
   );
 }
