@@ -1,4 +1,4 @@
-## Landing Page Assignment NextGen Intelligent Solutions Ltd.
+## Landing Page Assignment - NextGen Intelligent Solutions Ltd.
 
 These instructions will help you set up and run the project on your local machine.
 
