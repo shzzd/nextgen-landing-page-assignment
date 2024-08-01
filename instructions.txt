@@ -1,4 +1,4 @@
-Instructions to run this app:
+Instruction to run this app:
 
 1. Download and install node.js
 
