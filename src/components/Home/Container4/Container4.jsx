@@ -6,9 +6,9 @@ export default function Container4() {
     <div className={classes.wrapper}>
       <div className={classes.innerContainer}>
         <div className={classes.innerContainer1}>
-          <p>
+          <h2>
             Title of the section <br></br> text h2
-          </p>
+          </h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
             interdum augue sed tellus accumsan, nec congue quam lacinia. Duis
@@ -24,7 +24,7 @@ export default function Container4() {
           <div>Learn more</div>
         </div>
         <div className={classes.innerContainer2}>
-          <p>One liner title h2</p>
+          <h2>One liner title h2</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
             interdum augue sed tellus accumsan, nec congue quam lacinia. Duis

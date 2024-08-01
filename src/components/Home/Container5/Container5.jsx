@@ -4,9 +4,9 @@ import classes from "./Container5.module.css";
 export default function Container5() {
   return (
     <div className={classes.wrapper}>
-      <p>Yellow title h2</p>
+      <h2>Yellow title h2</h2>
       <div></div>
-      <p>H3 Title</p>
+      <h3>H3 Title</h3>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras interdum
         augue sed tellus accumsan, nec congue quam lacinia. Duis ornare congue

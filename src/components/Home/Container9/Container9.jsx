@@ -5,7 +5,7 @@ export default function Container9() {
   const date = ["Oct 12", "Sep 23", "Aug 23"];
   return (
     <div className={classes.wrapper}>
-      <p>H2 title one liner</p>
+      <h2>H2 title one liner</h2>
       <div>
         <div className={classes.container1}>
           <div>

@@ -15,7 +15,7 @@ export default function Container6() {
   ];
   return (
     <div className={classes.wrapper}>
-      <p>H2 title one liner</p>
+      <h2>H2 title one liner</h2>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras interdum
         augue sed tellus accumsan, nec congue quam lacinia. Duis ornare congue
@@ -30,10 +30,10 @@ export default function Container6() {
           }
         >
           <div className={classes.sub1}>
-            <div>
+            <h4>
               <img src={icon[index]} alt="" />
               Title h4
-            </div>
+            </h4>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
               interdum augue sed tellus accumsan, nec congue quam lacinia. Duis

@@ -5,7 +5,7 @@ export default function Container10() {
   return (
     <div className={classes.wrapper}>
       <div>
-        <p>h2 title one liner</p>
+        <h2>h2 title one liner</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras interdum
           augue sed tellus accumsan, nec congue quam lacinia. Duis ornare congue

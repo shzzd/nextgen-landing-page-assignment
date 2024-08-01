@@ -6,9 +6,9 @@ export default function Container2() {
     <div className={classes.wrapper}>
       <div className={classes.innerContainer1}>
         <div className={classes.innerContainer2}>
-          <p>
+          <h2>
             About The Quick <br></br> Shop this is H2
-          </p>
+          </h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
             interdum augue sed tellus accumsan, nec congue quam lacinia. Duis

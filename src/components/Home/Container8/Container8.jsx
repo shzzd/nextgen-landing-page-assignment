@@ -5,7 +5,7 @@ export default function Container8() {
   const date = ["03", "04", "05"];
   return (
     <div className={classes.wrapper}>
-      <p>H2 title one liner</p>
+      <h2>H2 title one liner</h2>
       <div>
         <div className={classes.container1}>
           <div></div>
