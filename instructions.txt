@@ -1,0 +1,13 @@
+Instructions to run this app:
+
+1. Download and install node.js
+
+2. Clone the repository using this command:
+git clone git@github.com:shzzd/nextgen-landing-page-assignment.git
+cd nextgen-landing-page-assignment.git
+
+3. Install the dependencies using this command:
+npm install
+
+3. To run the file in localhost:
+npm start
