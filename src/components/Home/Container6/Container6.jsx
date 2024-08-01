@@ -4,6 +4,7 @@ import i2 from "../../../assets/icon2.png";
 import i3 from "../../../assets/icon3.png";
 import i4 from "../../../assets/icon4.png";
 import classes from "./Container6.module.css";
+import { FiArrowUpRight } from "react-icons/fi";
 
 export default function Container6() {
   const icon = [i1, i2, i3, i4];
@@ -44,7 +45,10 @@ export default function Container6() {
             </p>
           </div>
           <div className={classes.sub2}>
-            <div>{explore[index]}</div>
+            <div className={classes.s1}>{explore[index]}</div>
+            <div className={classes.s2}>
+              <FiArrowUpRight className={classes.iconStyle} />
+            </div>
           </div>
         </div>
       ))}

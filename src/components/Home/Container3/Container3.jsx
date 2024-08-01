@@ -1,5 +1,5 @@
 import React from "react";
-import arrow from "../../../assets/arrow2.png";
+import { FaArrowRight } from "react-icons/fa6";
 import classes from "./Container3.module.css";
 
 export default function Container3() {
@@ -19,7 +19,7 @@ export default function Container3() {
         Aenean rutrum tristique purus,
       </p>
       <p>
-        Learn More <img src={arrow} alt="" />
+        Learn More <FaArrowRight className={classes.iconStyle} />
       </p>
     </div>
   );

@@ -114,3 +114,8 @@
   color: var(--blue);
   cursor: pointer;
 }
+
+.btn:hover {
+  background-color: var(--blue);
+  color: var(--white);
+}

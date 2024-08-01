@@ -78,3 +78,17 @@
   margin-bottom: 1rem;
   cursor: pointer;
 }
+
+.innerContainer1 > div:nth-child(3):hover,
+.innerContainer2 > div:nth-child(3):hover {
+  border: 1px var(--blue) solid;
+  background-color: var(--blue);
+  border-radius: 0.2rem;
+  color: var(--white);
+  font-size: 0.9rem;
+  font-weight: 700;
+  width: fit-content;
+  padding: 0.5rem 2rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}

@@ -1,6 +1,6 @@
 import React from "react";
-import arrow from "../../../assets/arrow1.png";
 import classes from "./Container1.module.css";
+import { FaArrowRightLong } from "react-icons/fa6";
 
 export default function Container1() {
   return (
@@ -9,7 +9,7 @@ export default function Container1() {
       <p>Welcome to Grand Shop</p>
       <p>A Single Line of Motto Text</p>
       <div>
-        Main CTA 1 <img src={arrow} alt="" />
+        Main CTA 1 <FaArrowRightLong />
       </div>
     </div>
   );

@@ -84,7 +84,7 @@
   height: 25rem;
 }
 
-.container .sub2 > div {
+.container .sub2 > .s1 {
   background-color: var(--blue);
   border-radius: 50%;
   width: 5rem;
@@ -101,9 +101,39 @@
   position: absolute;
   left: -3rem;
   bottom: 2.5rem;
+  z-index: 3;
 }
 
-.containerSwap .sub2 > div {
+.container .sub2 > .s1:hover {
+  opacity: 0;
+  z-index: 4;
+}
+
+.container .sub2 > .s2 {
+  background-color: var(--yellow);
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: black;
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 1rem;
+  position: absolute;
+  left: -3rem;
+  bottom: 2.5rem;
+  z-index: 2;
+}
+
+.container .sub2 > .s1:hover + .s2 {
+  display: flex;
+}
+
+.containerSwap .sub2 > .s1 {
   background-color: var(--blue);
   border-radius: 50%;
   width: 5rem;
@@ -120,6 +150,36 @@
   position: absolute;
   right: -3.5rem;
   bottom: 2.5rem;
+  z-index: 3;
+}
+
+.containerSwap .sub2 > .s1:hover {
+  opacity: 0;
+  z-index: 4;
+}
+
+.containerSwap .sub2 > .s2 {
+  background-color: var(--yellow);
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: black;
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 1rem;
+  position: absolute;
+  right: -3.5rem;
+  bottom: 2.5rem;
+  z-index: 2;
+}
+
+.containerSwap .sub2 > .s1:hover + .s2 {
+  display: flex;
 }
 
 .btn {
@@ -130,4 +190,9 @@
   font-weight: 700;
   color: var(--blue);
   cursor: pointer;
+}
+
+.btn:hover {
+  background-color: var(--blue);
+  color: var(--white);
 }

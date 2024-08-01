@@ -55,7 +55,7 @@
 
 .innerContainer2 > div:nth-child(3) {
   border: 1px var(--blue) solid;
-  border-radius: 0.2rem;
+  border-radius: 0.3rem;
   color: var(--blue);
   font-size: 0.9rem;
   font-weight: 700;
@@ -63,4 +63,9 @@
   padding: 0.5rem 2rem;
   margin-bottom: 1rem;
   cursor: pointer;
+}
+
+.innerContainer2 > div:nth-child(3):hover {
+  background-color: var(--blue);
+  color: var(--white);
 }

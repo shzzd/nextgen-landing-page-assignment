@@ -43,6 +43,11 @@
   gap: 0.5rem;
 }
 
+.wrapper > p:nth-child(4):hover {
+  color: var(--yellow);
+  cursor: pointer;
+}
+
 .wrapper > p:nth-child(4) > img {
   width: 0.7rem;
 }
